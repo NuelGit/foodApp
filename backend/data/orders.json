@@ -1,1 +1,116 @@
-[{"items":[{"id":"m2","name":"Margherita Pizza","price":"12.99","description":"A classic pizza with fresh mozzarella, tomatoes, and basil on a thin and crispy crust.","image":"images/margherita-pizza.jpg","quantity":1},{"id":"m1","name":"Mac & Cheese","price":"8.99","description":"Creamy cheddar cheese mixed with perfectly cooked macaroni, topped with crispy breadcrumbs. A classic comfort food.","image":"images/mac-and-cheese.jpg","quantity":1}],"customer":{"name":"Emmanuel nweke","email":"zioneemma@gmail.com","street":"7A okechukwu ","postal-code":"50001","city":"Woji"},"id":"767.8788493718209"},{"items":[{"id":"m2","name":"Margherita Pizza","price":"12.99","description":"A classic pizza with fresh mozzarella, tomatoes, and basil on a thin and crispy crust.","image":"images/margherita-pizza.jpg","quantity":1},{"id":"m1","name":"Mac & Cheese","price":"8.99","description":"Creamy cheddar cheese mixed with perfectly cooked macaroni, topped with crispy breadcrumbs. A classic comfort food.","image":"images/mac-and-cheese.jpg","quantity":1}],"customer":{"name":"Emmanuel nweke","email":"zioneemma@gmail.com","street":"7A okechukwu ","postal-code":"50001","city":"Woji"},"id":"725.6960453127652"},{"items":[{"id":"m2","name":"Margherita Pizza","price":"12.99","description":"A classic pizza with fresh mozzarella, tomatoes, and basil on a thin and crispy crust.","image":"images/margherita-pizza.jpg","quantity":1},{"id":"m1","name":"Mac & Cheese","price":"8.99","description":"Creamy cheddar cheese mixed with perfectly cooked macaroni, topped with crispy breadcrumbs. A classic comfort food.","image":"images/mac-and-cheese.jpg","quantity":1}],"customer":{"name":"Emmanuel nweke","email":"zioneemma@gmail.com","street":"7A okechukwu","postal-code":"50001","city":"Woji"},"id":"621.4645962699119"},{"items":[{"id":"m2","name":"Margherita Pizza","price":"12.99","description":"A classic pizza with fresh mozzarella, tomatoes, and basil on a thin and crispy crust.","image":"images/margherita-pizza.jpg","quantity":1},{"id":"m1","name":"Mac & Cheese","price":"8.99","description":"Creamy cheddar cheese mixed with perfectly cooked macaroni, topped with crispy breadcrumbs. A classic comfort food.","image":"images/mac-and-cheese.jpg","quantity":1}],"customer":{"name":"Emmanuel nweke","email":"zioneemma@gmail.com","street":"7A okechukwu","postal-code":"50001","city":"Woji"},"id":"961.0649127702144"},{"items":[{"id":"m2","name":"Margherita Pizza","price":"12.99","description":"A classic pizza with fresh mozzarella, tomatoes, and basil on a thin and crispy crust.","image":"images/margherita-pizza.jpg","quantity":1}],"customer":{"name":"Emmanuel nweke","email":"zioneemma@gmail.com","street":"7A okechukwu","postal-code":"50001","city":"Woji","phone":"08064947154"},"id":"69.18137923274602"}]
+[
+    {
+        "items": [
+            {
+                "id": "m2",
+                "name": "Margherita Pizza",
+                "price": "12.99",
+                "description": "A classic pizza with fresh mozzarella, tomatoes, and basil on a thin and crispy crust.",
+                "image": "images/margherita-pizza.jpg",
+                "quantity": 1
+            },
+            {
+                "id": "m1",
+                "name": "Mac & Cheese",
+                "price": "8.99",
+                "description": "Creamy cheddar cheese mixed with perfectly cooked macaroni, topped with crispy breadcrumbs. A classic comfort food.",
+                "image": "images/mac-and-cheese.jpg",
+                "quantity": 1
+            }
+        ],
+        "customer": {
+            "name": "Emmanuel nweke",
+            "email": "zionea@gmail.com",
+            "street": "7 Cokechukwu ",
+            "postal-code": "50001",
+            "city": "Woji"
+        },
+        "id": "767.8788493718209"
+    },
+    {
+        "items": [
+            {
+                "id": "m2",
+                "name": "Margherita Pizza",
+                "price": "12.99",
+                "description": "A classic pizza with fresh mozzarella, tomatoes, and basil on a thin and crispy crust.",
+                "image": "images/margherita-pizza.jpg",
+                "quantity": 1
+            },
+            {
+                "id": "m1",
+                "name": "Mac & Cheese",
+                "price": "8.99",
+                "description": "Creamy cheddar cheese mixed with perfectly cooked macaroni, topped with crispy breadcrumbs. A classic comfort food.",
+                "image": "images/mac-and-cheese.jpg",
+                "quantity": 1
+            }
+        ],
+        "customer": {
+            "name": "Emmanuel nweke",
+            "email": "zionee@gmail.com",
+            "street": "7 Cokechukwu ",
+            "postal-code": "50001",
+            "city": "Woji"
+        },
+        "id": "725.6960453127652"
+    },
+    {
+        "items": [
+            {
+                "id": "m2",
+                "name": "Margherita Pizza",
+                "price": "12.99",
+                "description": "A classic pizza with fresh mozzarella, tomatoes, and basil on a thin and crispy crust.",
+                "image": "images/margherita-pizza.jpg",
+                "quantity": 1
+            },
+            {
+                "id": "m1",
+                "name": "Mac & Cheese",
+                "price": "8.99",
+                "description": "Creamy cheddar cheese mixed with perfectly cooked macaroni, topped with crispy breadcrumbs. A classic comfort food.",
+                "image": "images/mac-and-cheese.jpg",
+                "quantity": 1
+            }
+        ],
+        "customer": {
+            "name": "Emmanuel nweke",
+            "email": "zioneemma@gmail.com",
+            "street": "7 Chokechukwu",
+            "postal-code": "50001",
+            "city": "Woja"
+        },
+        "id": "621.4645962699119"
+    },
+    {
+        "items": [
+            {
+                "id": "m2",
+                "name": "Margherita Pizza",
+                "price": "12.99",
+                "description": "A classic pizza with fresh mozzarella, tomatoes, and basil on a thin and crispy crust.",
+                "image": "images/margherita-pizza.jpg",
+                "quantity": 1
+            },
+            {
+                "id": "m1",
+                "name": "Mac & Cheese",
+                "price": "8.99",
+                "description": "Creamy cheddar cheese mixed with perfectly cooked macaroni, topped with crispy breadcrumbs. A classic comfort food.",
+                "image": "images/mac-and-cheese.jpg",
+                "quantity": 1
+            }
+        ],
+        "customer": {
+            "name": "Emmanuel nwaka",
+            "email": "ziona@gmail.com",
+            "street": "7A okechukwu",
+            "postal-code": "50001",
+            "city": "Woji"
+        },
+        "id": "961.0649127702144"
+    }
+    
+    
+]
