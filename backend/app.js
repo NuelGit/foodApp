@@ -32,6 +32,7 @@ app.post('/orders', async (req, res) => {
 
   if (
     orderData.customer.email === null ||
+    orderData.customer.phone === null ||
     !orderData.customer.email.includes('@') ||
     orderData.customer.name === null ||
     orderData.customer.name.trim() === '' ||

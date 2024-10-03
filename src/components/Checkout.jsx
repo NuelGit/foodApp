@@ -16,21 +16,40 @@ const Checkout = () => {
    function handleClose() {
     userProgCtx.hideCheckout()
    }
+   function handleSubmit (e) {
+    e.preventDefault()
+
+    const foData = new FormData(e.target)
+    const customerData = Object.fromEntries(foData.entries())
+
+    fetch('http://localhost:3000/orders', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({
+        order:{
+          items: cartCxt.items,
+          customer: customerData
+        }
+      })
+    })
+
+   }
 
   return (
     <Modal openProps={userProgCtx.progress ==='checkout'} 
     onCloseProps={handleClose}>
-        <form>
+        <form onSubmit={handleSubmit}>
             <h2> Checkout </h2>
             <p> Total Amount: {currencyFormatter.format(cartTotal)} </p>
 
-        <Input labelPros=" Full Name" type='text' idProps='full-name'  />
+        <Input labelPros=" Full Name" type='text' idProps='name'  />
         <Input labelPros=" E-Mail Address" type='email' idProps='email' />
-        <Input labelPros=" Street" type='text' idProps='sreet' />
+        <Input labelPros=" Street" type='text' idProps='street' />
 
         <div className='control-row'>
           <Input labelPros='Postal code' type='text' idProps='postal-code' />
           <Input labelPros='City' type='text' idProps='city' />
+          <Input labelPros='Phone-Number' type='number' idProps='phone' />
         </div>
 
         <p className='modal-actions'>
