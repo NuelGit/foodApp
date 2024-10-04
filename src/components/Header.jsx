@@ -18,7 +18,7 @@ const Header = () => {
   return <header id='main-header'>
     <div id='title'>
         <img src={logoimg} alt='Best Restaurant'/>
-        <h1> delicious Meal  </h1>
+        <h1> Your Delicious Meal  </h1>
 
     </div>
 
