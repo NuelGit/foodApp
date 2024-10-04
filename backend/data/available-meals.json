@@ -138,5 +138,12 @@
     "price": "8.99",
     "description": "Crispy falafels wrapped in a warm pita with lettuce, tomatoes, and a tahini sauce.",
     "image": "images/falafel-wrap.jpg"
+  },
+  {
+    "id": "m21",
+    "name": "Cake Slice",
+    "price": "4.99",
+    "description": "Fluffy scliced cake wrapped in a warm pita with lettuce, tomatoes, and a tahini sauce.",
+    "image": "images/cake-platter.png"
   }
 ]

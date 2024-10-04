@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useState } from 'react'
+import { useCallback, useEffect, useState } from 'react'
 
 
 async function sendHttprequest (url, config) {
@@ -20,12 +20,12 @@ export default function useHttp ( url, config, initialData ) {
      const [ isLoading, setIsLoading ] = useState(false)
 
   const sendNewReq = useCallback(
-    async function sendRequest() {
+    async function sendRequest(data) {
         setIsLoading(true)
 
     try {
         
-        const newResData = await sendHttprequest(url, config)
+        const newResData = await sendHttprequest(url, { ...config, body: data})
         setData(newResData)
 
     } catch (error) {
