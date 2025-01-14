@@ -26,7 +26,8 @@ const Checkout = () => {
    const userProgCtx = useContext(UserProgressContext)
   const {data, 
     error, 
-    isLoading: isSending, 
+    isLoading: isSending,
+     clearData,
     sendNewReq} = useHttp('http://localhost:3000/orders', requestConfig)
 
    const cartTotal = cartCxt.items.reduce((totalPrice, item) => 
@@ -40,6 +41,7 @@ const Checkout = () => {
    function handleFinish () {
     userProgCtx.hideCheckout()
     cartCxt.clearCart()
+    clearData()
    }
 
    function handleSubmit (e) {
